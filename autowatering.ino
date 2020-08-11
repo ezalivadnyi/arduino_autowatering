@@ -47,7 +47,7 @@ void loop() {
     delay(1000);
 
 
-  for (int minutes = 29; minutes >= 0; minutes--) {
+  for (int minutes = 19; minutes >= 0; minutes--) {
     clearLCDLine(0);
     lcd.print("Loop ");
     lcd.print(loopCounter);
